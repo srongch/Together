@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chhemsronglong.together">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--<uses-permission android:name="android.permission.CAMERA" />-->
+
+    <application
+        android:name=".ViewLayout.TogetherApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar" >
+        <activity android:name=".MainActivity.MainActivity" android:theme="@style/AppTheme.Launcher" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".HomeTabFragement.ButtomNavigationActivity"
+            android:label="@string/title_activity_buttom_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AllPostActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MessbershipActivity.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MessbershipActivity.SignupAcivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PostAcitivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".AllPostsActivity.PostDetailActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".PostDetail.DetailPostActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".OtherUserProfile.FriendProfileActivity" />
+        <activity
+            android:name=".FriendListActivity.FriendListActivity"
+            android:label="@string/title_activity_friend_list"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ChatActivity.ChatActivity"
+            android:label="@string/title_activity_chat"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".MessageActivity"
+            android:label="@string/title_activity_message"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity android:name=".PostActivity" />
+        <activity android:name=".ActivitiePosting.PostingActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapViewActivity"
+            android:label="@string/title_activity_map_view" />
+        <activity
+            android:name=".testingTab"
+            android:label="@string/title_activity_testing_tab" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".UserPostActivity.MyPostActivity"></activity>
+
+        <service
+            android:name=".Notification.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="firebase_messaging_auto_init_enabled"
+            android:value="false" />
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+
+    </application>
+
+
+</manifest>

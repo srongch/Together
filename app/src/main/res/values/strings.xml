@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">together</string>
+    <string name="title_activity_buttom_navigation">ButtomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_notifications">Message</string>
+
+    <string name="sigin_text">Have an account? <a href="http://www.google.com">Sign in</a></string>
+    <string name="home_activity_title_text"><font color='#251c1c'>What is going on near </font> <font color='#64488A'></font></string>
+    <string name="title_activity_friend_list">FriendListActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_message">MessageActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_map_view">Map</string>
+    <string name="title_activity_testing_tab">testingTab</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="app_loading">Loading</string>
+    <string name="on_marker_drag_start">Started dragging marker</string>
+    <string name="on_marker_drag_end">Marker stopped dragging</string>
+    <string name="on_marker_drag">onMarkerDrag.  Current Position: (%1$f, %2$f)</string>
+
+    <string name="friend_followed">Followed</string>
+    <string name="friend_unfollowed">Unfollowed</string>
+    <string name="application_logo_title">App title</string>
+    <string name="message_tab_chat">Messages</string>
+    <string name="message_tab_alert">Alerts</string>
+    <string name="notification_text">notification text</string>
+    <string name="shadow_background">shadow background</string>
+    <string name="profile_image">profile image</string>
+
+
+</resources>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginEnd="0dp"
+    app:cardBackgroundColor="@color/post_purple_color"
+    app:cardElevation="0dp"
+    tools:ignore="ContentDescription">
+
+    <android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/media_image5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@mipmap/box_background"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image_corner"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/post_box_corner_movie"
+            android:padding="16dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="@+id/media_image5"
+            app:layout_constraintDimensionRatio=""
+            app:layout_constraintEnd_toEndOf="@+id/media_image5"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/media_image5"
+            app:layout_constraintTop_toTopOf="@+id/media_image5"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/number_of_people"
+            android:layout_width="0dp"
+            android:layout_height="16dp"
+
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="0 people"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/post_line_color"
+            android:textSize="12sp"
+            app:fontFamily="@font/lato"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView20"
+            app:layout_constraintTop_toBottomOf="@+id/notes" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="18dp"
+            android:text="3.4Km Intu Dery, Derby"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/post_line_color"
+            android:textSize="12sp"
+            app:fontFamily="@font/lato"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/add_button"
+            app:layout_constraintStart_toStartOf="@+id/number_of_people"
+            app:layout_constraintTop_toBottomOf="@+id/number_of_people" />
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/profile_tab_round_corner"
+            android:scaleType="centerCrop"
+            app:layout_constraintDimensionRatio=""
+            app:layout_constraintStart_toStartOf="@+id/activities_type"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:srcCompat="@mipmap/profile_image" />
+
+        <ImageView
+            android:id="@+id/activities_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="@+id/notes"
+            app:layout_constraintDimensionRatio=""
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/notes"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@mipmap/home_dinning" />
+
+        <TextView
+            android:id="@+id/notes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:minHeight="30dp"
+            android:maxHeight="60dp"
+            android:text="The iPhone XR goes on presale 1 you may have missed e news."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="12sp"
+            app:fontFamily="@font/lato"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/activities_type"
+            app:layout_constraintTop_toBottomOf="@+id/title_text" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:text="Bigboss"
+            app:fontFamily="@font/lato"
+            app:layout_constraintStart_toEndOf="@+id/profile_image"
+            app:layout_constraintTop_toTopOf="@+id/profile_image" />
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="16dp"
+            android:text="The iPhone XR goes on presale?"
+            android:textColor="@color/green_background"
+            android:textSize="12sp"
+            app:fontFamily="@font/lato"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/user_name"
+            app:layout_constraintTop_toBottomOf="@+id/user_name" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:text="2018.08.12 12:00"
+            android:textColor="@color/post_line_color"
+            android:textSize="10sp"
+            app:fontFamily="@font/lato"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@mipmap/calendar_icon"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="@+id/time"
+            app:layout_constraintDimensionRatio=""
+            app:layout_constraintEnd_toStartOf="@+id/time"
+            app:layout_constraintTop_toTopOf="@+id/time"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@mipmap/numberofusericon"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="@+id/number_of_people"
+            app:layout_constraintStart_toStartOf="@+id/profile_image"
+            app:layout_constraintTop_toTopOf="@+id/number_of_people" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/place_icon"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="@+id/location"
+            app:layout_constraintStart_toStartOf="@+id/imageView20"
+            app:layout_constraintTop_toTopOf="@+id/location" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="50dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/post_line_color"
+            android:scaleType="centerCrop"
+            app:layout_constraintDimensionRatio=""
+            app:layout_constraintStart_toStartOf="@+id/title_text"
+            app:layout_constraintTop_toBottomOf="@+id/title_text" />
+
+        <Button
+            android:id="@+id/like_button"
+            android:layout_width="0dp"
+            android:layout_height="17dp"
+            android:background="@mipmap/plus_icon"
+            app:layout_constraintDimensionRatio="w,1:1"
+            app:layout_constraintEnd_toEndOf="@+id/time"
+            app:layout_constraintTop_toTopOf="@+id/location" />
+
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="0dp"
+            android:layout_height="17dp"
+            android:layout_marginEnd="20dp"
+            android:adjustViewBounds="true"
+            android:background="@mipmap/like_off_icon"
+            android:scaleType="fitCenter"
+            app:layout_constraintDimensionRatio="w,1:1"
+            app:layout_constraintEnd_toStartOf="@+id/like_button"
+            app:layout_constraintTop_toTopOf="@+id/like_button" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#64488a</color>
+    <color name="colorPrimaryDark">#64488a</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="whiteColor">#ffffff</color>
+    <color name="green_background">#64488a</color>
+    <color name="purple_background">#64488a</color>
+    <color name="input_placeholder_color">#ccd5e0</color>
+    <color name="clear_color">@android:color/transparent</color>
+    <color name="red_color">#971616</color>
+    <color name="grey_background_color">#ededed</color>
+    <color name="post_purple_color">#ededed</color>
+    <color name="post_line_color">#93a8ac</color>
+
+
+    <color name="dining_border_color">#ff7956</color>
+
+    <color name="activity_dinning">#FF7956</color>
+    <color name="activity_movie">#FDB62F</color>
+    <color name="activity_trip">#366DB6</color>
+    <color name="activity_sport">#3A3A58</color>
+    <color name="activity_event">#54B265</color>
+
+</resources>
