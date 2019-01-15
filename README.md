@@ -31,3 +31,18 @@
 **Main Components Usage:** Calendar, Camera, Location, Google Map, Google Firebase, client and server-side database, Rest Api Server.
 
 **Main user interaction feature:** zoom, swipe, and scroll.
+
+
+**Development:**
+1. **Android:** Kotline, Constriant layout...
+2. **Firebase:** Realtime Database, Cloud Function, Messaging, Storage
+3. **Cloud Function:** 
+
+**UI Sequences Prototype:**
+
+![Sequence 1](https://github.com/sronglongchhem/Together/blob/master/documents/1.png)
+![Sequence 2](https://github.com/sronglongchhem/Together/blob/master/documents/2.png)
+![Sequence 3](https://github.com/sronglongchhem/Together/blob/master/documents/3.png)
+![Sequence 4](https://github.com/sronglongchhem/Together/blob/master/documents/4.png)
+![Sequence 5](https://github.com/sronglongchhem/Together/blob/master/documents/5.png)
+![Sequence 6](https://github.com/sronglongchhem/Together/blob/master/documents/6.png)
