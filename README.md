@@ -38,7 +38,7 @@
 2. **Firebase:** Realtime Database, Cloud Function, Messaging, Storage...
 3. **[Cloud Function](https://github.com/sronglongchhem/CloudFunction-Together)**  : Cloud messaging, Realtime Firebase trigger...
 
-**UI Sequences Prototype:** images from [pexels](https://www.pexels.com)
+**UI Sequences Prototype:** images from [pexels](https://www.pexels.com) , [flaticon](https://www.flaticon.com)
 
 ![Sequence 1](https://github.com/sronglongchhem/Together/blob/master/documents/1.png)
 ![Sequence 2](https://github.com/sronglongchhem/Together/blob/master/documents/2.png)
