@@ -1,3 +1,5 @@
+*English is my second language, there will be mistakes and typos in the written text below.*
+
 # Together 
 > ***Feeling lonely? Let’s make some friends.***
 
