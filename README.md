@@ -35,8 +35,8 @@
 
 **Development:**
 1. **Android:** Kotline, Constriant layout...
-2. **Firebase:** Realtime Database, Cloud Function, Messaging, Storage
-3. **Cloud Function:** 
+2. **Firebase:** Realtime Database, Cloud Function, Messaging, Storage...
+3. **[Cloud Function](https://github.com/sronglongchhem/CloudFunction-Together)**  : Cloud messaging, Realtime Firebase trigger...
 
 **UI Sequences Prototype:**
 
