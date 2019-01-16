@@ -11,7 +11,7 @@
 
 **Use case 1:**  A user wants to try out new restaurant menu but he does not want to go alone, so he makes a post on ‘Together’ finding B users that want to go with him.
 
-**User case 2:**  A fresher move in the University in foreign place without knowing anyone, so he creates a post on ‘Together’ looking for other students whose share the same habit or interest whether it is eating habit or sport.
+**User case 2:**  A fresher moves in the University in foreign place without knowing anyone, so he creates a post on ‘Together’ looking for other students whose share the same habit or interest whether it is eating habit or sport.
 
   
 
